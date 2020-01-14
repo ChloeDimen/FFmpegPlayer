@@ -28,6 +28,7 @@ public class MainActivity extends ActionBarActivity {
 	}
 	public void mPlay(View btn){
 		
+		
 		Surface surface=videoView.getHolder().getSurface();
 		player.play("/sdcard/sintel.mp4", surface);
 		
